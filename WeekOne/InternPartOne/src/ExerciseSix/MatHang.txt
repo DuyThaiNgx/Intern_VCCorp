@@ -1,0 +1,5 @@
+HH01 - Áo thun - Quần áo - 300000
+HH02 - Kem dưỡng da - Mỹ phẩm - 450000
+HH03 - Mỳ gói - Thực phẩm - 30000
+HH04 - Màn hình máy tính - Điện tử - 3000000
+HH05 - Quần bò - Quần áo - 500000
