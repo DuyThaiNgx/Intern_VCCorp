@@ -6,7 +6,7 @@ public class MatHang{
     private String maHangHoa;
     private String tenHangHoa;
     private String phanLoai;
-    private String gia;
+    private double gia;
 
     public String getMaHangHoa() {
         return maHangHoa;
@@ -32,15 +32,15 @@ public class MatHang{
         this.phanLoai = phanLoai;
     }
 
-    public String getGia() {
+    public double getGia() {
         return gia;
     }
 
-    public void setGia(String gia) {
+    public void setGia(double gia) {
         this.gia = gia;
     }
 
-    public MatHang(String maHangHoa, String tenHangHoa, String phanLoai, String gia) {
+    public MatHang(String maHangHoa, String tenHangHoa, String phanLoai, double gia) {
         this.maHangHoa = maHangHoa;
         this.tenHangHoa = tenHangHoa;
         this.phanLoai = phanLoai;

@@ -10,8 +10,8 @@ public class HoaDon{
     private String maHoaDon;
     private NhanVienBanHang nhanVienBanHang;
     private KhachHang khachHang;
-    private ArrayList<MatHang> matHang;
-    private String tongGia;
+    private List<MatHang> matHang;
+    private double tongGia;
     private Date ngayMua;
 
     public String getMaHoaDon() {
@@ -38,7 +38,7 @@ public class HoaDon{
         this.khachHang = khachHang;
     }
 
-    public ArrayList<MatHang> getMatHang() {
+    public List<MatHang> getMatHang() {
         return matHang;
     }
 
@@ -46,11 +46,15 @@ public class HoaDon{
         this.matHang = matHang;
     }
 
-    public String getTongGia() {
+    public void setMatHang(List<MatHang> matHang) {
+        this.matHang = matHang;
+    }
+
+    public double getTongGia() {
         return tongGia;
     }
 
-    public void setTongGia(String tongGia) {
+    public void setTongGia(double tongGia) {
         this.tongGia = tongGia;
     }
 
@@ -62,7 +66,7 @@ public class HoaDon{
         this.ngayMua = ngayMua;
     }
 
-    public HoaDon(String maHoaDon, NhanVienBanHang nhanVienBanHang, KhachHang khachHang, ArrayList<MatHang> matHang, String tongGia, Date ngayMua) {
+    public HoaDon(String maHoaDon, NhanVienBanHang nhanVienBanHang, KhachHang khachHang, List<MatHang> matHang, double tongGia, Date ngayMua) {
         this.maHoaDon = maHoaDon;
         this.nhanVienBanHang = nhanVienBanHang;
         this.khachHang = khachHang;
@@ -75,7 +79,7 @@ public class HoaDon{
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         return "MaHoaDon: " + maHoaDon +
                 ", NhanVienBH: " + nhanVienBanHang +
-                ", KhachHang: " + dateFormat.format(khachHang) +
+                ", KhachHang: " + khachHang +
                 ", MatHang: " + matHang+
                 ", TongGia: "+tongGia+
                 ", NgayMua: "+dateFormat.format(ngayMua);
