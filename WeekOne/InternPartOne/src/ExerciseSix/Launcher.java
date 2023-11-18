@@ -8,69 +8,37 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.List;
-class NhanVienRepo{
-    Map<String, NhanVien> map = new HashMap<>();
-    public NhanVienRepo(){
-
-    }
-    public void addNhanVien(NhanVien nhanVien){
-        map.put(nhanVien.getMaNhanVien(), nhanVien);
-    }
-    public NhanVien getNhanVien(String maNhanVien){
-        return map.get(maNhanVien);
-    }
-}
-class KhachHangRepo{
-    HashMap<String, KhachHang> map = new HashMap<>();
-    public KhachHangRepo(){
-
-    }
-    public void addKhachHang(KhachHang khachHang){
-        map.put(khachHang.getMaKhachHang(), khachHang);
-    }
-    public KhachHang getKhachHang(String maKhachHang){
-        return map.get(maKhachHang);
-    }
-
-}
-class MatHangRepo{
-    Map<String, MatHang> map = new HashMap<>();
-    public MatHangRepo(){
-        this.map = map;
-    }
-    public void addMatHang(MatHang matHang){
-        map.put(matHang.getMaHangHoa(), matHang);
-    }
-
-    public MatHang getMatHang(String maHangHoa){
-        return map.get(maHangHoa);
-    }
-}
 
 public class Launcher {
-    static NhanVienRepo nhanVienRepo=  new NhanVienRepo();
-    static KhachHangRepo khachHangRepo = new KhachHangRepo();
-    static MatHangRepo matHangRepo = new MatHangRepo();
+    private static List<KhachHang> dsKhachHang;
+    private static List<NhanVien> dsNhanVien;
+    private static List<MatHang> dsMatHang;
+    private static List<HoaDon> dsHoaDon;
+
 
 
     public static void main(String[] args) throws IOException, ParseException {
-
-        String filePathNVBH = "src/ExerciseSix/NhanVienBanHang.txt";
-        String filePathNVNH = "src/ExerciseSix/NhanVienNhapHang.txt";
-        String filePathHoaDon = "src/ExerciseSix/HoaDon.txt";
-        String filePathMatHang = "src/ExerciseSix/MatHang.txt";
-        String filePathNV = "src/ExerciseSix/NhanVien.txt";
-        try {
-            List<NhanVien> danhSachNhanVien = docFileNV();
-            // In thông tin các nhân viên
-            for (NhanVien nhanVien : danhSachNhanVien) {
-                System.out.println(nhanVien);
-            }
-        } catch (IOException | ParseException e) {
-            e.printStackTrace();
-        }
+        dsKhachHang = docFileKhachHang();
+        dsNhanVien = docFileNV();
+        dsMatHang = docFileMatHang();
+        dsHoaDon = docFileHoaDon();
         tongTienKhach();
         doanhSoBanHang();
+//        String filePathNVBH = "src/ExerciseSix/NhanVienBanHang.txt";
+//        String filePathNVNH = "src/ExerciseSix/NhanVienNhapHang.txt";
+//        String filePathHoaDon = "src/ExerciseSix/HoaDon.txt";
+//        String filePathMatHang = "src/ExerciseSix/MatHang.txt";
+//        String filePathNV = "src/ExerciseSix/NhanVien.txt";
+//        try {
+//            List<NhanVien> danhSachNhanVien = docFileNV();
+//            // In thông tin các nhân viên
+//            for (NhanVien nhanVien : danhSachNhanVien) {
+//                System.out.println(nhanVien);
+//            }
+//        } catch (IOException | ParseException e) {
+//            e.printStackTrace();
+//        }
+//
 
         //KhachHang
 //        try {
@@ -86,8 +54,9 @@ public class Launcher {
     }
     private static List<NhanVien> docFileNV() throws IOException, ParseException {
         List<NhanVien> danhSachNhanVien = new ArrayList<>();
-        String filePathNhanVien = "src/ExerciseSix/NhanVien.txt";
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePathNhanVien))) {
+        String filePathNhanVienBH = "src/ExerciseSix/NhanVienBanHang.txt";
+        String filePathNhanVienNH = "src/ExerciseSix/NhanVienNhapHang.txt";
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePathNhanVienBH))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 StringTokenizer tokenizer = new StringTokenizer(line, "-");
@@ -100,12 +69,34 @@ public class Launcher {
                     // Tạo đối tượng NhanVienBanHang và thêm vào danh sách
                     NhanVienBanHang nhanVien = new NhanVienBanHang(maNV, gioiTinh, ngayLamViec, caDangKy);
                     danhSachNhanVien.add(nhanVien);
-                    nhanVienRepo.addNhanVien(nhanVien);
                 } else {
                     int thamNien = Integer.parseInt(possibleCaDangKy);
                     NhanVienNhapHang nhanVien = new NhanVienNhapHang(maNV, gioiTinh, ngayLamViec, thamNien);
                     danhSachNhanVien.add(nhanVien);
-                    nhanVienRepo.addNhanVien(nhanVien);
+                }
+
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePathNhanVienNH))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                StringTokenizer tokenizer = new StringTokenizer(line, "-");
+                String maNV = tokenizer.nextToken();
+                GioiTinh gioiTinh = GioiTinh.valueOf(tokenizer.nextToken().toUpperCase());
+                Date ngayLamViec = new SimpleDateFormat("dd/MM/yyyy").parse(tokenizer.nextToken());
+                String possibleCaDangKy = tokenizer.nextToken();
+                if (CaDangKy.isValid(possibleCaDangKy)) {
+                    CaDangKy caDangKy = CaDangKy.valueOf(possibleCaDangKy.toUpperCase());
+                    // Tạo đối tượng NhanVienBanHang và thêm vào danh sách
+                    NhanVienBanHang nhanVien = new NhanVienBanHang(maNV, gioiTinh, ngayLamViec, caDangKy);
+                    danhSachNhanVien.add(nhanVien);
+                } else {
+                    int thamNien = Integer.parseInt(possibleCaDangKy);
+                    NhanVienNhapHang nhanVien = new NhanVienNhapHang(maNV, gioiTinh, ngayLamViec, thamNien);
+                    danhSachNhanVien.add(nhanVien);
                 }
 
             }
@@ -128,7 +119,6 @@ public class Launcher {
                 GioiTinh gioiTinh = GioiTinh.valueOf(tokenizer.nextToken().toUpperCase());
                 int doTuoi = Integer.parseInt(tokenizer.nextToken());
                 KhachHang khachHang = new KhachHang(maKH, gioiTinh, doTuoi);
-                khachHangRepo.addKhachHang(khachHang);
                 danhSachKH.add(khachHang);
             }
         } catch (IOException e) {
@@ -146,18 +136,36 @@ public class Launcher {
             while ((line = reader.readLine()) != null) {
                 StringTokenizer tokenizer = new StringTokenizer(line, "-");
                 String maHoaDon = tokenizer.nextToken();
-//                String nhanVienBH = tokenizer.nextToken();
-                NhanVienBanHang nhanVienBanHang = (NhanVienBanHang) nhanVienRepo.getNhanVien(tokenizer.nextToken());
-                KhachHang khachHang = khachHangRepo.getKhachHang(tokenizer.nextToken());
+                String maNhanVien = tokenizer.nextToken();
+
+                NhanVienBanHang nhanVien = null;
+                for(NhanVien nv: dsNhanVien){
+                    if(nv.getMaNhanVien().equals(maNhanVien)){
+                        nhanVien = (NhanVienBanHang)nv;
+                        break;
+                    }
+                }
+                KhachHang khachHang = null;
+                String maKhachHang = tokenizer.nextToken();
+                for (KhachHang kh: dsKhachHang){
+                    if(kh.getMaKhachHang().equals(maKhachHang)){
+                        khachHang = kh;
+                        break;
+                    }
+                }
                 String listMatHang = tokenizer.nextToken();
                 List<MatHang> listMH = new ArrayList<>();
-                for(String hang : listMatHang.split("-")){
-                    MatHang mh = matHangRepo.getMatHang(hang);
-                    listMH.add(mh);
+                for(String hang : listMatHang.split(" ")){
+                    for (MatHang mh : dsMatHang){
+                        if(hang.equals(mh.getMaHangHoa())){
+                            listMH.add(mh);
+                            break;
+                        }
+                    }
                 }
                 double tongGia = Double.parseDouble(tokenizer.nextToken());
                 Date ngayMua = new SimpleDateFormat("dd/MM/yyyy").parse(tokenizer.nextToken());
-                HoaDon hoaDon = new HoaDon(maHoaDon,nhanVienBanHang, khachHang,listMH, tongGia, ngayMua);
+                HoaDon hoaDon = new HoaDon(maHoaDon, nhanVien, khachHang, listMH, tongGia, ngayMua);
                 danhSachHoaDon.add(hoaDon);
             }
         } catch (IOException e) {
@@ -179,7 +187,6 @@ public class Launcher {
                 String phanLoai = tokenizer.nextToken();
                 double gia = Double.parseDouble(tokenizer.nextToken());
                 MatHang matHang = new MatHang(maHangHoa, tenHangHoa, phanLoai, gia);
-                matHangRepo.addMatHang(matHang);
                 danhSachMatHang.add(matHang);
             }
         } catch (IOException e) {
@@ -189,42 +196,28 @@ public class Launcher {
     }
 
     public static void tongTienKhach() throws IOException, ParseException {
-        List<HoaDon> danhSachHoaDon = docFileHoaDon();
-        Map<String, Double> tongTien = new HashMap<>();
-        for(HoaDon hoaDon : danhSachHoaDon){
-            //Lấy mã khách hàng từ hóa đơn hiện tại.
-//            String maKhachHang = hoaDon.getKhachHang();
-            String maKhachHang = String.valueOf(hoaDon.getKhachHang());
-            Date ngayMua = hoaDon.getNgayMua();
-            Date nowTime = new Date();
-
-            if(ngayMua.getMonth() == nowTime.getMonth()) {
-                tongTien.put(maKhachHang, tongTien.getOrDefault(maKhachHang, 0.0) + hoaDon.getTongGia());
+       for(KhachHang khachHang:dsKhachHang){
+            double tongTienKhach = 0;
+            Date date = new Date();
+            for(HoaDon hoaDon:dsHoaDon){
+                if(hoaDon.getKhachHang() == khachHang && hoaDon.getNgayMua().getMonth() == date.getMonth()){
+                    tongTienKhach+= hoaDon.getTongGia();
+                }
             }
-        }
-
-        System.out.println("Tong Tien: ");
-        for(Map.Entry<String, Double> entry : tongTien.entrySet()){
-            System.out.println(entry.getKey() + " : " + entry.getValue() + "VND");
-        }
+            System.out.println(khachHang.getMaKhachHang() + " "+ tongTienKhach);
+       }
     }
     public static void doanhSoBanHang() throws IOException, ParseException {
-        List<HoaDon> danhSachHoaDon = docFileHoaDon();
-        Map<String, Double> doanhSo = new HashMap<>();
-        for (HoaDon hoaDon : danhSachHoaDon) {
-//            NhanVienBanHang nhanVienBanHang = hoaDon.getNhanVienBanHang();
-            NhanVien nhanVienBanHang = hoaDon.getNhanVienBanHang();
-//            double tongGia = hoaDon.getTongGia();
-            if(nhanVienBanHang!= null){
-                double tongGia = hoaDon.getTongGia();
-                doanhSo.put(nhanVienBanHang.getMaNhanVien(), doanhSo.getOrDefault(nhanVienBanHang.getMaNhanVien(), 0.0) + tongGia);
+        for(NhanVien nhanVien: dsNhanVien){
+            if(nhanVien instanceof NhanVienBanHang){
+                double tongTien = 0;
+                for(HoaDon hoaDon: dsHoaDon){
+                    if(hoaDon.getNhanVienBanHang() == nhanVien){
+                        tongTien += hoaDon.getTongGia();
+                    }
+                }
+                System.out.println(nhanVien.getMaNhanVien() + " "+ tongTien);
             }
         }
-
-        System.out.println("Doanh So Ban Hang: ");
-        for (Map.Entry<String, Double> entry : doanhSo.entrySet()) {
-            System.out.println(entry.getKey() + " : " + entry.getValue() + "VND");
-        }
     }
-
 }

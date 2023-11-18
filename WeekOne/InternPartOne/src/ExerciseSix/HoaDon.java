@@ -77,10 +77,14 @@ public class HoaDon{
     @Override
     public String toString() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        String dsMatHang = "";
+        for(MatHang mh: matHang){
+            dsMatHang += mh.toString();
+        }
         return "MaHoaDon: " + maHoaDon +
                 ", NhanVienBH: " + nhanVienBanHang +
                 ", KhachHang: " + khachHang +
-                ", MatHang: " + matHang+
+                ", MatHang: " +dsMatHang+
                 ", TongGia: "+tongGia+
                 ", NgayMua: "+dateFormat.format(ngayMua);
     }
