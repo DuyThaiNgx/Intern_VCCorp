@@ -6,6 +6,15 @@ public class City implements Serializable {
     private int id;
     private String name;
     private int population;
+    private String code;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
 
     public int getId() {
         return id;
@@ -35,10 +44,11 @@ public class City implements Serializable {
 
     }
 
-    public City(int id, String name, int population) {
+    public City(int id, String name, int population, String code) {
         this.id = id;
         this.name = name;
         this.population = population;
+        this.code=code;
     }
 
     @Override
@@ -47,6 +57,7 @@ public class City implements Serializable {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", population=" + population +
+                ", code='" + code + '\'' +
                 '}';
     }
 }

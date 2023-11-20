@@ -73,7 +73,7 @@ public class ExerciseThree {
 
         executorService.shutdown();
 
-        // Sort and print the top 10 most and least frequent words
+        // In ra top 10 tu
         printTopWords(totalWordCount, 10, true);
         printTopWords(totalWordCount, 10, false);
     }

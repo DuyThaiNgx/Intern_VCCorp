@@ -38,8 +38,8 @@ public class KhachHang{
     }
     @Override
     public String toString() {
-        return "Ma KH: " + maKhachHang +
-                ", GioiTinh: " + gioiTinh +
-                ", DoTuoi: " + doTuoi;
+        return maKhachHang + "-"
+               + gioiTinh +"-"
+                + doTuoi;
     }
 }

@@ -81,11 +81,11 @@ public class HoaDon{
         for(MatHang mh: matHang){
             dsMatHang += mh.toString();
         }
-        return "MaHoaDon: " + maHoaDon +
-                ", NhanVienBH: " + nhanVienBanHang +
-                ", KhachHang: " + khachHang +
-                ", MatHang: " +dsMatHang+
-                ", TongGia: "+tongGia+
-                ", NgayMua: "+dateFormat.format(ngayMua);
+        return  maHoaDon + "-"
+                + nhanVienBanHang +"-"
+                + khachHang + "-"
+                + dsMatHang + "-"
+                + tongGia + "-"
+                + dateFormat.format(ngayMua);
     }
 }

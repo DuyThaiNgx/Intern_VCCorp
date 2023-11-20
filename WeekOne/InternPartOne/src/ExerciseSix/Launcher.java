@@ -1,9 +1,7 @@
 package ExerciseSix;
 
 import java.awt.*;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -24,6 +22,7 @@ public class Launcher {
         dsHoaDon = docFileHoaDon();
         tongTienKhach();
         doanhSoBanHang();
+        deleteObject(dsKhachHang);
 //        String filePathNVBH = "src/ExerciseSix/NhanVienBanHang.txt";
 //        String filePathNVNH = "src/ExerciseSix/NhanVienNhapHang.txt";
 //        String filePathHoaDon = "src/ExerciseSix/HoaDon.txt";
@@ -56,7 +55,8 @@ public class Launcher {
         List<NhanVien> danhSachNhanVien = new ArrayList<>();
         String filePathNhanVienBH = "src/ExerciseSix/NhanVienBanHang.txt";
         String filePathNhanVienNH = "src/ExerciseSix/NhanVienNhapHang.txt";
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePathNhanVienBH))) {
+        String filePathNhanVien = "src/ExerciseSix/NhanVien.txt";
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePathNhanVien))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 StringTokenizer tokenizer = new StringTokenizer(line, "-");
@@ -79,31 +79,6 @@ public class Launcher {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePathNhanVienNH))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                StringTokenizer tokenizer = new StringTokenizer(line, "-");
-                String maNV = tokenizer.nextToken();
-                GioiTinh gioiTinh = GioiTinh.valueOf(tokenizer.nextToken().toUpperCase());
-                Date ngayLamViec = new SimpleDateFormat("dd/MM/yyyy").parse(tokenizer.nextToken());
-                String possibleCaDangKy = tokenizer.nextToken();
-                if (CaDangKy.isValid(possibleCaDangKy)) {
-                    CaDangKy caDangKy = CaDangKy.valueOf(possibleCaDangKy.toUpperCase());
-                    // Tạo đối tượng NhanVienBanHang và thêm vào danh sách
-                    NhanVienBanHang nhanVien = new NhanVienBanHang(maNV, gioiTinh, ngayLamViec, caDangKy);
-                    danhSachNhanVien.add(nhanVien);
-                } else {
-                    int thamNien = Integer.parseInt(possibleCaDangKy);
-                    NhanVienNhapHang nhanVien = new NhanVienNhapHang(maNV, gioiTinh, ngayLamViec, thamNien);
-                    danhSachNhanVien.add(nhanVien);
-                }
-
-            }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
         return danhSachNhanVien;
     }
 
@@ -219,5 +194,29 @@ public class Launcher {
                 System.out.println(nhanVien.getMaNhanVien() + " "+ tongTien);
             }
         }
+    }
+    public static <T> void deleteObject(List <T> list) throws IOException {
+        Random random = new Random();
+        T randomElement = list.get(random.nextInt(list.size()));
+        list.remove(randomElement);
+        String filePath = "";
+        if(randomElement instanceof NhanVien){
+            filePath= "src/ExerciseSix/NhanVien.txt";
+        }
+        else if(randomElement instanceof KhachHang){
+            filePath = "src/ExerciseSix/KhachHang.txt";
+        }
+        else if(randomElement instanceof HoaDon){
+            filePath = "src/ExerciseSix/HoaDon.txt";
+        }
+        else if(randomElement instanceof MatHang){
+            filePath = "src/ExerciseSix/MatHang.txt";
+        }
+        FileWriter fileWriter = new FileWriter(filePath);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+        for(T element: list){
+            bufferedWriter.write(element.toString() + "\n");
+        }
+        bufferedWriter.close();
     }
 }

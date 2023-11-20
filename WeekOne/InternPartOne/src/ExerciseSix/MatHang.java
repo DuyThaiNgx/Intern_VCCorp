@@ -48,9 +48,9 @@ public class MatHang{
     }
     @Override
     public String toString() {
-        return "MaHH: " + maHangHoa +
-                ", TenHH: " + tenHangHoa +
-                ", PhanLoai: " + phanLoai +
-                ", Gia: " + gia;
+        return maHangHoa +"-"
+                + tenHangHoa + "-"
+                + phanLoai + "-"
+                + gia;
     }
 }

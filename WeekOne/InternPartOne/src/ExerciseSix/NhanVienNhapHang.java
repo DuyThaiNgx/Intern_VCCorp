@@ -21,9 +21,9 @@ public class NhanVienNhapHang extends NhanVien{
     @Override
     public String toString() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        return "MaNVNH: " + getMaNhanVien() +
-                ", GioiTinh: " + gioiTinh +
-                ", Ngay lam viec: " + dateFormat.format(ngayLamViec) +
-                ", ThamNien: " + thamNien;
+        return getMaNhanVien()
+                + gioiTinh + "-"
+                + dateFormat.format(ngayLamViec) + "-"
+                + thamNien;
     }
 }
