@@ -1,4 +1,4 @@
-package JsonExample;
+package org.example.JsonExample;
 
 import com.google.gson.JsonObject;
 

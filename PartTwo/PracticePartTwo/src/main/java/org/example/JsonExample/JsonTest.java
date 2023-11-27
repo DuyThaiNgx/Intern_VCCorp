@@ -1,4 +1,4 @@
-package JsonExample;
+package org.example.JsonExample;
 
 import com.google.gson.Gson;
 
@@ -8,10 +8,10 @@ import java.util.List;
 
 public class JsonTest {
     public static void main(String[] args) {
-        List <Person> listPerson = new ArrayList<>();
-        Person p1 = new Person("Thai", 27, "HaDong", "HaNoi");
-        Person p2 = new Person("dtngx", 20, "ThanhXuan", "HaNoi");
-        Person p3 = new Person("VCCORP", 15, "ThanhXuan", "TPHCM");
+        List <PersonGuy> listPerson = new ArrayList<>();
+        PersonGuy p1 = new PersonGuy("Thai", 27, "HaDong", "HaNoi");
+        PersonGuy p2 = new PersonGuy("dtngx", 20, "ThanhXuan", "HaNoi");
+        PersonGuy p3 = new PersonGuy("VCCORP", 15, "ThanhXuan", "TPHCM");
         listPerson.add(p1);
         listPerson.add(p2);
         listPerson.add(p3);
@@ -22,13 +22,13 @@ public class JsonTest {
         System.out.println(jsonString);
     }
 }
-class Person{
+class PersonGuy {
     private String name;
     private int tuoi;
     private String diaChi;
     private String thanhPho;
 
-    public Person(String name, int tuoi, String diaChi, String thanhPho) {
+    public PersonGuy(String name, int tuoi, String diaChi, String thanhPho) {
         this.name = name;
         this.tuoi = tuoi;
         this.diaChi = diaChi;

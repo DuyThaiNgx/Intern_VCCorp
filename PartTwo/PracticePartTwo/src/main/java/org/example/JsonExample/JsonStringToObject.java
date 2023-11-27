@@ -1,6 +1,7 @@
-package JsonExample;
+package org.example.JsonExample;
 
 import com.google.gson.Gson;
+
 
 public class JsonStringToObject {
     public static void main(String[] args) {
@@ -9,10 +10,10 @@ public class JsonStringToObject {
 
         // Sử dụng Gson để chuyển chuỗi thành đối tượng
         Gson gson = new Gson();
-        Person[] person = gson.fromJson(jsonString, Person[].class);
+        PersonGuy[] person = gson.fromJson(jsonString, PersonGuy[].class);
 
         // In thông tin đối tượng
-        for (Person people : person){
+        for (PersonGuy people : person){
             System.out.println("Name: " + people.getName());
             System.out.println("Age: " + people.getTuoi());
             System.out.println("Address: " + people.getDiaChi());
