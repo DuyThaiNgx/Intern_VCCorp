@@ -5,26 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad032e28-c55d-432d-b16a-169c43454bf0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoggingExample/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeTwoJava/PracticeTwoJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestFulExample/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestFulExample/SparkExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestFulExample/StandardResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestFulExample/StatusResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestFulExample/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestFulExample/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoggingExample/WriteLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoggingExample/XMLLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PartOne/ExercisePartOne/InternPartOne/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PartOne/ExercisePartOne/InternPartOne/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PartOne/ExercisePartOne/InternPartOne/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PartOne/ExercisePartOne/InternPartOne/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PartOne/ExercisePartOne/InternPartOne/src/ExerciseSix/KhachHang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PartOne/ExercisePartOne/InternPartOne/src/ExerciseSix/KhachHang.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PartOne/ExercisePartOne/InternPartOne/src/ExerciseSix/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PartOne/ExercisePartOne/InternPartOne/src/ExerciseSix/Launcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PartOne/OnTapPhanMot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PartOne/OnTapPhanMot/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticePartTwo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JsonExample/AddJsonString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JsonExample/JsonStringToObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JsonExample/JsonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/XMLExample/FileXML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/XMLExample/testXML.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,36 +38,89 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2YkdCWtX1b0tLkXDA4db2ZpC5iL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/DuyThai/Desktop/2023.1/ThucTapVCC/PartTwo/PracticePartTwo/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DuyThai/Desktop/2023.1/ThucTapVCC/PartTwo/PracticePartTwo/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.AppController">
-    <configuration name="AppController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LoggingExample.AppController" />
+}</component>
+  <component name="RunManager" selected="Application.SparkExecute (2)">
+    <configuration name="HelloWorldService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RestFulExample.HelloWorldService" />
+      <module name="PracticePartTwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestFulExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkExecute (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RestFulExample.SparkExecute" />
+      <module name="PracticePartTwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestFulExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkExecute (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RestFulExample.SparkExecute" />
+      <module name="PracticePartTwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestFulExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RestFulExample.SparkExecute" />
+      <module name="PracticePartTwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestFulExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LoggingExample.XMLLog" />
       <module name="PracticePartTwo" />
       <extension name="coverage">
         <pattern>
@@ -82,51 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonStringToObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JsonExample.JsonStringToObject" />
-      <module name="PracticePartTwo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JsonExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadAObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.XMLExample.ReadAObject" />
-      <module name="PracticePartTwo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.XMLExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.JsonExample.JsonStringToObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JsonExample.JsonStringToObject" />
-      <module name="PracticePartTwo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.JsonExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppController" />
-        <item itemvalue="Application.org.example.JsonExample.JsonStringToObject" />
-        <item itemvalue="Application.JsonStringToObject" />
-        <item itemvalue="Application.ReadAObject" />
+        <item itemvalue="Application.SparkExecute (2)" />
+        <item itemvalue="Application.SparkExecute" />
+        <item itemvalue="Application.SparkExecute (1)" />
+        <item itemvalue="Application.HelloWorldService" />
+        <item itemvalue="Application.XMLLog" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +150,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701073386009</updated>
-      <workItem from="1701073387058" duration="5198000" />
+      <workItem from="1701073387058" duration="6019000" />
+      <workItem from="1701224910301" duration="8219000" />
     </task>
     <servers />
   </component>

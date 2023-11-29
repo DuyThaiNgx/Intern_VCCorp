@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+TimeBasedTriggeringPolicy: Tạo một file log mới theo thời gian (ngày).
+SizeBasedTriggeringPolicy: Tạo một file log mới khi file log hiện tại vượt quá kích thước 1 MB.
+DefaultRolloverStrategy: Giữ lại tối đa 5 file log.
+/*-->
+<Configuration status="WARN">
+    <Appenders>
+        <RollingFile name="TimeSizeRollingFile" fileName="logs/example_time_size.log"
+                     filePattern="logs/example_time_size-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="1 MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="TimeSizeRollingFile" />
+        </Root>
+    </Loggers>
+</Configuration>

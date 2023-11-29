@@ -1,0 +1,15 @@
+[INFO ] 29-11-2023 09:44:04 [main] AppController - Info: 4 / 2 = 2
+[ERROR] 29-11-2023 09:44:04 [main] AppController - Error: Cannot divide two number 4/0
+java.lang.ArithmeticException: / by zero
+	at org.example.LoggingExample.AppController.divide(AppController.java:21) [classes/:?]
+	at org.example.LoggingExample.AppController.main(AppController.java:15) [classes/:?]
+[FATAL] 29-11-2023 09:44:04 [main] AppController - Fatal log message
+[INFO ] 29-11-2023 09:55:37 [main] XMLLog - Đây là một thông báo thông tin
+[INFO ] 29-11-2023 09:56:21 [main] XMLLog - Đây là một thông báo thông tin
+[INFO ] 29-11-2023 09:59:28 [main] AppController - Info: 4 / 2 = 2
+[ERROR] 29-11-2023 09:59:28 [main] AppController - Error: Cannot divide two number 4/0
+java.lang.ArithmeticException: / by zero
+	at org.example.LoggingExample.AppController.divide(AppController.java:21) [classes/:?]
+	at org.example.LoggingExample.AppController.main(AppController.java:15) [classes/:?]
+[FATAL] 29-11-2023 09:59:28 [main] AppController - Fatal log message
+[INFO ] 29-11-2023 10:03:18 [main] XMLLog - Đây là một thông báo thông tin
