@@ -55,7 +55,7 @@ public class SparkExecute {
                 return false;
             }
         };
-        post("/hello", (request, response) -> {
+        post("/users", (request, response) -> {
             response.type("application/json");
             try {
                 User user = new Gson().fromJson(request.body(), User.class);
