@@ -1,4 +1,4 @@
-package RestFulExample;
+package org.example.RestFulExample;
 
 import com.google.gson.JsonElement;
 
@@ -21,6 +21,29 @@ public class StandardResponse {
 
     }
 
+    public StatusResponse getStatus() {
+        return status;
+    }
+
+    public void setStatus(StatusResponse status) {
+        this.status = status;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public JsonElement getData() {
+        return data;
+    }
+
+    public void setData(JsonElement data) {
+        this.data = data;
+    }
     // getters and setters
 }
 

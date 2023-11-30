@@ -1,19 +1,19 @@
-package RestFulExample;
+package org.example.RestFulExample;
 
-public class Users {
+public class User {
     private String id;
     private String firstName;
     private String lastName;
     private String email;
 
-    public Users(String id, String firstName, String lastName, String email) {
+    public User(String id, String firstName, String lastName, String email) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
     }
 
-    public Users() {
+    public User() {
 
     }
 
