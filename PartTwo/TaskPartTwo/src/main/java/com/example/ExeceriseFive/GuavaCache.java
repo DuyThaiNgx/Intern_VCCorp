@@ -17,8 +17,8 @@ import static spark.Spark.get;
 import static spark.Spark.port;
 
 public class GuavaCache {
-        /* Chinh sua tren server may
-    client */
+    /* Chinh
+    sua hop nhat giua server & client */
     private static long ttl; // Thời gian sống cho từng phần tử (milliseconds)
 
     public static void main(String[] args) {
