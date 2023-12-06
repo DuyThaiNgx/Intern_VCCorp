@@ -1,0 +1,496 @@
+16:42:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4406
+16:42:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4392
+16:42:54 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4382
+16:42:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4368
+16:43:00 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4358
+16:43:06 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4370
+16:43:10 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4356
+16:43:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4347
+16:43:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4337
+16:43:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4328
+16:43:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4340
+16:43:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4327
+16:43:48 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4315
+16:43:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4306
+16:44:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4318
+16:44:08 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4307
+16:44:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4316
+16:44:16 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4300
+16:44:20 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4284
+16:44:34 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4278
+16:44:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4269
+16:44:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4257
+16:44:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4247
+16:45:10 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4240
+16:45:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4250
+16:45:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4238
+16:45:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4226
+16:45:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4210
+16:45:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4200
+16:46:10 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4211
+16:46:18 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4228
+16:46:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4218
+16:46:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4206
+16:46:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4195
+16:46:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4175
+16:46:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4185
+16:46:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4170
+16:47:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4153
+16:47:04 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4137
+16:47:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4155
+16:47:18 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4167
+16:47:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4158
+16:47:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4148
+16:47:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4132
+16:47:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4147
+16:47:42 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4162
+16:47:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4151
+16:48:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4164
+16:48:16 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4174
+16:48:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4184
+16:48:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4175
+16:48:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4185
+16:48:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4195
+16:48:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4181
+16:49:04 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4191
+16:49:06 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4201
+16:49:10 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4210
+16:49:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4220
+16:49:18 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4230
+16:49:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4220
+16:49:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4209
+16:49:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4222
+16:49:42 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4213
+16:49:48 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4222
+16:49:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4209
+16:50:00 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4197
+16:50:04 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4180
+16:50:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4192
+16:50:20 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4183
+16:50:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4173
+16:50:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4182
+16:50:58 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4177
+16:51:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4186
+16:51:14 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4191
+16:51:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4205
+16:51:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4216
+16:51:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4199
+16:51:38 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4199
+16:51:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4213
+16:51:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4224
+16:51:54 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4215
+16:51:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4206
+16:52:06 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4185
+16:52:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4176
+16:52:16 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4190
+16:52:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4205
+16:52:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4214
+16:52:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4225
+16:52:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4241
+16:52:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4231
+16:53:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4220
+16:53:04 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4201
+16:53:10 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4213
+16:53:24 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4209
+16:53:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4200
+16:53:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4210
+16:53:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4196
+16:53:54 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4187
+16:53:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4178
+16:54:10 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4176
+16:54:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4186
+16:54:16 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4177
+16:54:20 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4167
+16:54:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4176
+16:54:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4187
+16:54:42 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4174
+16:54:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4161
+16:54:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4152
+16:54:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4163
+16:55:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4150
+16:55:08 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4137
+16:55:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4153
+16:55:16 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4142
+16:55:20 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4124
+16:55:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4112
+16:55:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4126
+16:55:36 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4112
+16:55:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4099
+16:55:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4114
+16:56:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4103
+16:56:10 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4114
+16:56:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4123
+16:56:28 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4128
+16:56:30 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4139
+16:56:44 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4137
+16:56:48 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4147
+16:56:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4135
+16:56:54 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4122
+16:57:00 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4132
+16:57:11 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4120
+16:57:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4107
+16:57:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4118
+16:57:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4109
+16:57:42 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4119
+16:57:56 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4127
+16:58:10 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4107
+16:58:16 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4095
+16:58:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4079
+16:58:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4070
+16:58:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4061
+16:58:52 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 4058
+16:58:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4048
+16:59:00 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4059
+16:59:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4049
+16:59:20 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4039
+16:59:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4028
+16:59:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +4016
+16:59:36 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3995
+16:59:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3987
+16:59:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3971
+16:59:48 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3959
+16:59:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3949
+17:00:06 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3940
+17:00:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3922
+17:00:18 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3907
+17:00:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3889
+17:00:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3877
+17:00:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3866
+17:00:36 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3855
+17:00:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3844
+17:00:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3834
+17:00:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3818
+17:00:58 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 3812
+17:01:00 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3800
+17:01:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3788
+17:01:08 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3778
+17:01:16 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3767
+17:01:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3752
+17:01:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3741
+17:01:30 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3754
+17:01:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3744
+17:01:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3734
+17:01:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3722
+17:01:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3708
+17:01:48 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3698
+17:01:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3687
+17:01:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3695
+17:02:04 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3687
+17:02:08 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3676
+17:02:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3684
+17:02:18 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3669
+17:02:20 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3657
+17:02:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3647
+17:02:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3634
+17:02:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3619
+17:02:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3602
+17:02:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3589
+17:02:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3581
+17:02:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3567
+17:02:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3556
+17:03:06 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3545
+17:03:18 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3530
+17:03:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3519
+17:03:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3505
+17:03:36 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3495
+17:03:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3487
+17:03:42 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3476
+17:03:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3483
+17:03:48 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3490
+17:03:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3480
+17:03:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3470
+17:03:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3461
+17:04:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3451
+17:04:10 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3442
+17:04:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3433
+17:04:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3414
+17:04:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3407
+17:04:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3393
+17:04:30 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3386
+17:04:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3373
+17:04:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3365
+17:04:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3351
+17:04:48 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3333
+17:04:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3319
+17:04:54 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3308
+17:04:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3299
+17:05:10 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3291
+17:05:16 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3280
+17:05:20 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3272
+17:05:30 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3261
+17:05:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3254
+17:05:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3245
+17:05:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3238
+17:05:58 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 3240
+17:06:06 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3228
+17:06:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3217
+17:06:18 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3224
+17:06:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3217
+17:06:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3224
+17:06:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3215
+17:06:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3208
+17:06:42 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3201
+17:06:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3212
+17:06:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3221
+17:07:06 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 3220
+17:07:08 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3211
+17:07:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3204
+17:07:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3196
+17:07:20 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3187
+17:07:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3180
+17:07:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3166
+17:07:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3147
+17:07:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3155
+17:07:42 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3141
+17:07:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3134
+17:07:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3124
+17:07:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3112
+17:07:54 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3120
+17:08:00 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +3113
+17:49:21 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2007
+17:49:23 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2000
+17:49:25 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2006
+17:49:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2012
+17:49:30 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2003
+17:49:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1998
+17:49:44 [main] DEBUG spark.route.Routes - Adds route: get, /prime, spark.RouteImpl$1@61a485d2
+17:49:44 [Thread-0] DEBUG org.eclipse.jetty.util.log - Logging to Logger[org.eclipse.jetty.util.log] via org.eclipse.jetty.util.log.Slf4jLog
+17:49:44 [Thread-0] INFO  org.eclipse.jetty.util.log - Logging initialized @402ms to org.eclipse.jetty.util.log.Slf4jLog
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - QueuedThreadPool[qtp632492692]@25b31294{STOPPED,8<=0<=200,i=0,r=-1,q=0}[NO_TRY] added {org.eclipse.jetty.util.thread.ThreadPoolBudget@480f1e37,POJO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@748b7ddb{STOPPED}[9.4.48.v20220622] added {QueuedThreadPool[qtp632492692]@25b31294{STOPPED,8<=0<=200,i=0,r=-1,q=0}[NO_TRY],AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - HttpConnectionFactory@991ee3a[HTTP/1.1] added {HttpConfiguration@20a48d97{32768/8192,8192/8192,https://:0,[ForwardedRequestCustomizer@6ef0b82d]},POJO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@75779c31{null, ()}{0.0.0.0:0} added {Server@748b7ddb{STOPPED}[9.4.48.v20220622],UNMANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@75779c31{null, ()}{0.0.0.0:0} added {QueuedThreadPool[qtp632492692]@25b31294{STOPPED,8<=0<=200,i=0,r=-1,q=0}[NO_TRY],AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@75779c31{null, ()}{0.0.0.0:0} added {ScheduledExecutorScheduler@54105125{STOPPED},AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@75779c31{null, ()}{0.0.0.0:0} added {ArrayByteBufferPool@5fa52ced{minBufferCapacity=0, maxBufferCapacity=65536, maxQueueLength=-1, factor=1024},POJO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@75779c31{null, (http/1.1)}{0.0.0.0:0} added {HttpConnectionFactory@991ee3a[HTTP/1.1],AUTO}
+17:49:44 [Thread-0] DEBUG o.e.jetty.server.AbstractConnector - ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:0} added HttpConnectionFactory@991ee3a[HTTP/1.1]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:0} added {SelectorManager@ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:0},MANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@748b7ddb{STOPPED}[9.4.48.v20220622] added {ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868},AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@748b7ddb{STOPPED}[9.4.48.v20220622] added {spark.embeddedserver.jetty.JettyHandler1507585127==dftMaxIdleSec=-1,MANAGED}
+17:49:44 [Thread-0] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+17:49:44 [Thread-0] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:6868
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting Server@748b7ddb{STOPPED}[9.4.48.v20220622]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@748b7ddb{STARTING}[9.4.48.v20220622] added {ErrorHandler@70f004e2{STOPPED},AUTO}
+17:49:44 [Thread-0] INFO  org.eclipse.jetty.server.Server - jetty-9.4.48.v20220622; built: 2022-06-21T20:42:25.880Z; git: 6b67c5719d1f4371b33655ff2d047d24e171e49a; jvm 1.8.0_202-b08
+17:49:44 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting Server@748b7ddb{STARTING}[9.4.48.v20220622]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting QueuedThreadPool[qtp632492692]@25b31294{STOPPED,8<=0<=200,i=0,r=-1,q=0}[NO_TRY]
+17:49:44 [Thread-0] DEBUG o.e.j.u.t.ReservedThreadExecutor - ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - QueuedThreadPool[qtp632492692]@25b31294{STARTING,8<=0<=200,i=0,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}] added {ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0},AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @518ms ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}
+17:49:44 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[qtp632492692-14,5,main]
+17:49:44 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[qtp632492692-15,5,main]
+17:49:44 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[qtp632492692-16,5,main]
+17:49:44 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[qtp632492692-17,5,main]
+17:49:44 [qtp632492692-14] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp632492692]@25b31294{STARTING,8<=2<=200,i=2,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:44 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[qtp632492692-18,5,main]
+17:49:44 [qtp632492692-15] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp632492692]@25b31294{STARTING,8<=4<=200,i=4,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:44 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[qtp632492692-19,5,main]
+17:49:44 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[qtp632492692-20,5,main]
+17:49:44 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - Starting Thread[qtp632492692-21,5,main]
+17:49:44 [qtp632492692-18] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp632492692]@25b31294{STARTING,8<=6<=200,i=6,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:44 [qtp632492692-17] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp632492692]@25b31294{STARTING,8<=6<=200,i=6,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:44 [qtp632492692-16] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp632492692]@25b31294{STARTING,8<=6<=200,i=6,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @522ms QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:44 [qtp632492692-19] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:44 [qtp632492692-20] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting spark.embeddedserver.jetty.JettyHandler1507585127==dftMaxIdleSec=-1
+17:49:44 [qtp632492692-21] DEBUG o.e.j.util.thread.QueuedThreadPool - Runner started for QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - spark.embeddedserver.jetty.JettyHandler1507585127==dftMaxIdleSec=-1 added {org.eclipse.jetty.server.session.DefaultSessionCache@d6db6d3[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false],AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - org.eclipse.jetty.server.session.DefaultSessionCache@d6db6d3[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false] added {org.eclipse.jetty.server.session.NullSessionDataStore@75c8bc8a[passivating=false,graceSec=3600],AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting DefaultSessionIdManager@ab5a800{STOPPED}[worker=null]
+17:49:44 [Thread-0] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+17:49:44 [Thread-0] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - DefaultSessionIdManager@ab5a800{STARTING}[worker=node0] added {HouseKeeper@2c525dad{STOPPED}[interval=600000, ownscheduler=false],MANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting HouseKeeper@2c525dad{STOPPED}[interval=600000, ownscheduler=false]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ScheduledExecutorScheduler@7f6c38eb{STOPPED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @547ms ScheduledExecutorScheduler@7f6c38eb{STARTED}
+17:49:44 [Thread-0] DEBUG org.eclipse.jetty.server.session - Using own scheduler for scavenging
+17:49:44 [Thread-0] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @550ms HouseKeeper@2c525dad{STARTED}[interval=600000, ownscheduler=true]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @550ms DefaultSessionIdManager@ab5a800{STARTED}[worker=node0]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - Server@748b7ddb{STARTING}[9.4.48.v20220622] added {DefaultSessionIdManager@ab5a800{STARTED}[worker=node0],MANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - spark.embeddedserver.jetty.JettyHandler1507585127==dftMaxIdleSec=-1 added {DefaultSessionIdManager@ab5a800{STARTED}[worker=node0],UNMANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ScheduledExecutorScheduler@3b9a8943{STOPPED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @551ms ScheduledExecutorScheduler@3b9a8943{STARTED}
+17:49:44 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting spark.embeddedserver.jetty.JettyHandler1507585127==dftMaxIdleSec=-1
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.DefaultSessionCache@d6db6d3[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting org.eclipse.jetty.server.session.NullSessionDataStore@75c8bc8a[passivating=false,graceSec=3600]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @552ms org.eclipse.jetty.server.session.NullSessionDataStore@75c8bc8a[passivating=false,graceSec=3600]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @552ms org.eclipse.jetty.server.session.DefaultSessionCache@d6db6d3[evict=-1,removeUnloadable=false,saveOnCreate=false,saveOnInactiveEvict=false]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @553ms spark.embeddedserver.jetty.JettyHandler1507585127==dftMaxIdleSec=-1
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ErrorHandler@70f004e2{STOPPED}
+17:49:44 [Thread-0] DEBUG o.e.j.server.handler.AbstractHandler - starting ErrorHandler@70f004e2{STARTING}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @553ms ErrorHandler@70f004e2{STARTED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868} added {sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:6868],POJO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ScheduledExecutorScheduler@54105125{STOPPED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @561ms ScheduledExecutorScheduler@54105125{STARTED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting HttpConnectionFactory@991ee3a[HTTP/1.1]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @562ms HttpConnectionFactory@991ee3a[HTTP/1.1]
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting SelectorManager@ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - EatWhatYouKill@76b63ad3/SelectorProducer@3aa942e1/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.907+07:00 added {SelectorProducer@3aa942e1,POJO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - EatWhatYouKill@76b63ad3/SelectorProducer@3aa942e1/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.91+07:00 added {QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}],UNMANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@76b63ad3/SelectorProducer@3aa942e1/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.911+07:00 created
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ManagedSelector@2579b4f0{STOPPED} id=0 keys=-1 selected=-1 updates=0 added {EatWhatYouKill@76b63ad3/SelectorProducer@3aa942e1/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.911+07:00,MANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - SelectorManager@ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868} added {ManagedSelector@2579b4f0{STOPPED} id=0 keys=-1 selected=-1 updates=0,AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - EatWhatYouKill@673b991/SelectorProducer@1375f14a/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.912+07:00 added {SelectorProducer@1375f14a,POJO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - EatWhatYouKill@673b991/SelectorProducer@1375f14a/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.912+07:00 added {QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}],UNMANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@673b991/SelectorProducer@1375f14a/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.913+07:00 created
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ManagedSelector@776ad7c8{STOPPED} id=1 keys=-1 selected=-1 updates=0 added {EatWhatYouKill@673b991/SelectorProducer@1375f14a/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.913+07:00,MANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - SelectorManager@ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868} added {ManagedSelector@776ad7c8{STOPPED} id=1 keys=-1 selected=-1 updates=0,AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - EatWhatYouKill@1fdc33e1/SelectorProducer@4f8beba/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.914+07:00 added {SelectorProducer@4f8beba,POJO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - EatWhatYouKill@1fdc33e1/SelectorProducer@4f8beba/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.914+07:00 added {QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}],UNMANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@1fdc33e1/SelectorProducer@4f8beba/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.915+07:00 created
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ManagedSelector@38bbf0ce{STOPPED} id=2 keys=-1 selected=-1 updates=0 added {EatWhatYouKill@1fdc33e1/SelectorProducer@4f8beba/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.916+07:00,MANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - SelectorManager@ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868} added {ManagedSelector@38bbf0ce{STOPPED} id=2 keys=-1 selected=-1 updates=0,AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - EatWhatYouKill@194eb486/SelectorProducer@67f3cf75/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.917+07:00 added {SelectorProducer@67f3cf75,POJO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - EatWhatYouKill@194eb486/SelectorProducer@67f3cf75/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.917+07:00 added {QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}],UNMANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@194eb486/SelectorProducer@67f3cf75/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.917+07:00 created
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ManagedSelector@26bfb05f{STOPPED} id=3 keys=-1 selected=-1 updates=0 added {EatWhatYouKill@194eb486/SelectorProducer@67f3cf75/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.918+07:00,MANAGED}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - SelectorManager@ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868} added {ManagedSelector@26bfb05f{STOPPED} id=3 keys=-1 selected=-1 updates=0,AUTO}
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ManagedSelector@2579b4f0{STOPPED} id=0 keys=-1 selected=-1 updates=0
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting EatWhatYouKill@76b63ad3/SelectorProducer@3aa942e1/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.919+07:00
+17:49:44 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @588ms EatWhatYouKill@76b63ad3/SelectorProducer@3aa942e1/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=8,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:44.919+07:00
+17:49:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1992
+17:49:45 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - queue org.eclipse.jetty.io.ManagedSelector$$Lambda$32/2129352570@6ed87746 startThread=0
+17:49:45 [qtp632492692-14] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.io.ManagedSelector$$Lambda$32/2129352570@6ed87746 in QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=7,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:45 [Thread-0] DEBUG org.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@5a732036 on ManagedSelector@2579b4f0{STARTING} id=0 keys=0 selected=0 updates=0
+17:49:45 [qtp632492692-14] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@76b63ad3/SelectorProducer@3aa942e1/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=7,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:45.088+07:00 tryProduce false
+17:49:45 [qtp632492692-14] DEBUG org.eclipse.jetty.io.ManagedSelector - updateable 1
+17:49:45 [qtp632492692-14] DEBUG org.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@5a732036
+17:49:45 [qtp632492692-14] DEBUG org.eclipse.jetty.io.ManagedSelector - updates 0
+17:49:45 [qtp632492692-14] DEBUG org.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WindowsSelectorImpl@58795bcb waiting with 0 keys
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @759ms ManagedSelector@2579b4f0{STARTED} id=0 keys=0 selected=0 updates=0
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ManagedSelector@776ad7c8{STOPPED} id=1 keys=-1 selected=-1 updates=0
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting EatWhatYouKill@673b991/SelectorProducer@1375f14a/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=7,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:45.09+07:00
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @762ms EatWhatYouKill@673b991/SelectorProducer@1375f14a/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=7,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:45.093+07:00
+17:49:45 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - queue org.eclipse.jetty.io.ManagedSelector$$Lambda$32/2129352570@75b85483 startThread=0
+17:49:45 [Thread-0] DEBUG org.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@3609a892 on ManagedSelector@776ad7c8{STARTING} id=1 keys=0 selected=0 updates=0
+17:49:45 [qtp632492692-15] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.io.ManagedSelector$$Lambda$32/2129352570@75b85483 in QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=6,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:45 [qtp632492692-15] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@673b991/SelectorProducer@1375f14a/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=6,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:45.094+07:00 tryProduce false
+17:49:45 [qtp632492692-15] DEBUG org.eclipse.jetty.io.ManagedSelector - updateable 1
+17:49:45 [qtp632492692-15] DEBUG org.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@3609a892
+17:49:45 [qtp632492692-15] DEBUG org.eclipse.jetty.io.ManagedSelector - updates 0
+17:49:45 [qtp632492692-15] DEBUG org.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WindowsSelectorImpl@405fd2d8 waiting with 0 keys
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @764ms ManagedSelector@776ad7c8{STARTED} id=1 keys=0 selected=0 updates=0
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ManagedSelector@38bbf0ce{STOPPED} id=2 keys=-1 selected=-1 updates=0
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting EatWhatYouKill@1fdc33e1/SelectorProducer@4f8beba/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=6,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:45.095+07:00
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @764ms EatWhatYouKill@1fdc33e1/SelectorProducer@4f8beba/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=6,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:45.095+07:00
+17:49:45 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - queue org.eclipse.jetty.io.ManagedSelector$$Lambda$32/2129352570@57fc8008 startThread=0
+17:49:45 [qtp632492692-18] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.io.ManagedSelector$$Lambda$32/2129352570@57fc8008 in QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=5,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:45 [Thread-0] DEBUG org.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@343ca3e1 on ManagedSelector@38bbf0ce{STARTING} id=2 keys=0 selected=0 updates=0
+17:49:45 [qtp632492692-18] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@1fdc33e1/SelectorProducer@4f8beba/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=5,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:45.096+07:00 tryProduce false
+17:49:45 [qtp632492692-18] DEBUG org.eclipse.jetty.io.ManagedSelector - updateable 1
+17:49:45 [qtp632492692-18] DEBUG org.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@343ca3e1
+17:49:45 [qtp632492692-18] DEBUG org.eclipse.jetty.io.ManagedSelector - updates 0
+17:49:45 [qtp632492692-18] DEBUG org.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WindowsSelectorImpl@a21cc48 waiting with 0 keys
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @766ms ManagedSelector@38bbf0ce{STARTED} id=2 keys=0 selected=0 updates=0
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting ManagedSelector@26bfb05f{STOPPED} id=3 keys=-1 selected=-1 updates=0
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - starting EatWhatYouKill@194eb486/SelectorProducer@67f3cf75/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=5,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:45.097+07:00
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @767ms EatWhatYouKill@194eb486/SelectorProducer@67f3cf75/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=5,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:45.098+07:00
+17:49:45 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - queue org.eclipse.jetty.io.ManagedSelector$$Lambda$32/2129352570@317f5a9 startThread=0
+17:49:45 [qtp632492692-17] DEBUG o.e.j.util.thread.QueuedThreadPool - run org.eclipse.jetty.io.ManagedSelector$$Lambda$32/2129352570@317f5a9 in QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=4,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:45 [Thread-0] DEBUG org.eclipse.jetty.io.ManagedSelector - Queued change lazy=false org.eclipse.jetty.io.ManagedSelector$Start@78218061 on ManagedSelector@26bfb05f{STARTING} id=3 keys=0 selected=0 updates=0
+17:49:45 [qtp632492692-17] DEBUG o.e.j.u.t.strategy.EatWhatYouKill - EatWhatYouKill@194eb486/SelectorProducer@67f3cf75/IDLE/p=false/QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=4,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}][pc=0,pic=0,pec=0,epc=0]@2023-12-04T17:49:45.099+07:00 tryProduce false
+17:49:45 [qtp632492692-17] DEBUG org.eclipse.jetty.io.ManagedSelector - updateable 1
+17:49:45 [qtp632492692-17] DEBUG org.eclipse.jetty.io.ManagedSelector - update org.eclipse.jetty.io.ManagedSelector$Start@78218061
+17:49:45 [qtp632492692-17] DEBUG org.eclipse.jetty.io.ManagedSelector - updates 0
+17:49:45 [qtp632492692-17] DEBUG org.eclipse.jetty.io.ManagedSelector - Selector sun.nio.ch.WindowsSelectorImpl@6816b9c6 waiting with 0 keys
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @769ms ManagedSelector@26bfb05f{STARTED} id=3 keys=0 selected=0 updates=0
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @769ms SelectorManager@ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868}
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.ContainerLifeCycle - ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868} added {acceptor-0@269a26cd,POJO}
+17:49:45 [Thread-0] DEBUG o.e.j.util.thread.QueuedThreadPool - queue acceptor-0@269a26cd startThread=0
+17:49:45 [qtp632492692-16] DEBUG o.e.j.util.thread.QueuedThreadPool - run acceptor-0@269a26cd in QueuedThreadPool[qtp632492692]@25b31294{STARTED,8<=8<=200,i=3,r=-1,q=0}[ReservedThreadExecutor@4e87fc2c{reserved=0/8,pending=0}]
+17:49:45 [Thread-0] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868}
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @770ms ServerConnector@75779c31{HTTP/1.1, (http/1.1)}{0.0.0.0:6868}
+17:49:45 [Thread-0] INFO  org.eclipse.jetty.server.Server - Started @770ms
+17:49:45 [Thread-0] DEBUG o.e.j.u.component.AbstractLifeCycle - STARTED @771ms Server@748b7ddb{STARTED}[9.4.48.v20220622]
+17:49:48 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2004
+17:49:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2010
+17:50:06 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2003
+17:50:08 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1997
+17:50:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1992
+17:50:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1998
+17:50:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1989
+17:50:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1995
+17:50:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1990
+17:50:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1995
+17:50:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1999
+17:50:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1995
+17:50:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2002
+17:50:54 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1995
+17:50:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1991
+17:50:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1995
+17:51:10 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 1997
+17:51:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1991
+17:51:20 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1998
+17:51:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1989
+17:51:36 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1994
+17:51:42 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1998
+17:51:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1993
+17:51:48 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1987
+17:51:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1982
+17:51:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1992
+17:52:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2000
+17:52:04 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1996
+17:52:08 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2000
+17:52:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1996
+17:52:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +2001
+17:52:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1996
+17:52:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1992
+17:52:30 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1980
+17:52:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1987
+17:52:46 [pool-1-thread-1] DEBUG com.example.ExerciseOne.JsonReader - user: 1984
+17:52:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1973
+17:52:54 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1968
+17:52:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1972
+17:53:00 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1963
+17:53:08 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1953
+17:53:10 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1961
+17:53:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1969
+17:53:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1965
+17:53:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1971
+17:53:30 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1976
+17:53:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1971
+17:53:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1964
+17:53:40 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1973
+17:53:44 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1967
+17:53:49 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1960
+17:53:50 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1964
+17:53:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1952
+17:53:54 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1941
+17:54:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1947
+17:54:04 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1935
+17:54:06 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1940
+17:54:10 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1932
+17:54:14 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1928
+17:54:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1941
+17:54:30 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1948
+17:54:32 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1943
+17:54:34 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1937
+17:54:39 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1931
+17:54:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1917
+17:54:48 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1912
+17:54:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1907
+17:54:54 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1903
+17:55:00 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1914
+17:55:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1909
+17:55:04 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1905
+17:55:06 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1900
+17:55:12 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1904
+17:55:22 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1910
+17:55:24 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1914
+17:55:26 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1909
+17:55:28 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1903
+17:55:30 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1908
+17:55:36 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1902
+17:55:38 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1896
+17:55:42 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1903
+17:55:46 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1912
+17:55:52 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1918
+17:55:56 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1926
+17:55:58 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1922
+17:56:02 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1926
+17:56:06 [pool-1-thread-1] INFO  com.example.ExerciseOne.JsonReader - INFO: +1922

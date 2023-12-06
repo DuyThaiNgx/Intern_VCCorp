@@ -13,11 +13,11 @@ public class PrimeNumberServiceWithCache {
     private static final CacheTTL<Integer, List<Integer>> cache = new CacheTTL<>(5, 20);
 
     public static void main(String[] args) {
-        port(6869);
+        port(8989);
         get("/prime", (request, response) -> {
             int n = Integer.parseInt(request.queryParams("number"));
             List<Integer> primes;
-            // Kiểm tra xem n đã tồn tại trong cache chưa
+            // Kiểm tra xem n đã tồn tại rong cache chưa
             primes = cache.get(n);
             if (primes == null) {
                 //Sử dụng hàm getPrimeNumbers ở bài 3

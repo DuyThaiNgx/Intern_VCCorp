@@ -8,5 +8,6 @@ public class Main {
         // IntelliJ IDEA suggests fixing it.
         System.currentTimeMillis();
         System.out.println(System.currentTimeMillis());
+        System.out.println("Heelo wworl");
         }
     }

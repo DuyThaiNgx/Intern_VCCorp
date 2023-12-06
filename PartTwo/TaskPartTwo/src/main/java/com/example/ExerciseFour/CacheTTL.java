@@ -1,5 +1,8 @@
 package com.example.ExerciseFour;
 
+import com.google.common.cache.Cache;
+import com.google.common.cache.CacheBuilder;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -11,6 +14,11 @@ public class CacheTTL<K, V> {
 
     public static void main(String[] args) {
         CacheTTL ca = new CacheTTL(3,60000);
+        Cache<String,CacheTTL> guavaCache= CacheBuilder.newBuilder().
+                maximumSize(100).
+                expireAfterAccess(30, TimeUnit.MINUTES).
+                build();
+
         System.out.println(System.currentTimeMillis());
     }
     // n là thời gian sống của một phần tử trong cache (milliseconds)
