@@ -1,15 +1,9 @@
 package com.example.ExeceriseFive;
-
-import com.example.ExerciseFour.CacheTTL;
-import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
 import com.google.gson.Gson;
-
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import static com.example.ExerciseThree.PrimeNumber.getPrimeNumbers;
@@ -52,6 +46,5 @@ public class GuavaCache {
     }
     // n là thời gian sống của một phần tử trong cache (milliseconds)
     // m là thời gian sống của cache (milliseconds)
-
 
 }
