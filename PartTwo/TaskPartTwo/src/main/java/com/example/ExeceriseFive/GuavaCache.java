@@ -17,6 +17,8 @@ import static spark.Spark.get;
 import static spark.Spark.port;
 
 public class GuavaCache {
+        /* 
+    Chinh sua tren server github */
 
     private static long ttl; // Thời gian sống cho từng phần tử (milliseconds)
 
