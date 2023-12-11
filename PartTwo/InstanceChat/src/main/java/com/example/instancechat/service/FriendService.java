@@ -15,13 +15,13 @@ public class FriendService {
         return userRepository.getFriends(username);
     }
 
-    public boolean checkFriends(String username, String friendName) {
-        List<String> friends = userRepository.getFriends(username);
-        for (String friendCheck : friends) {
-            if (friendCheck.equals(friendName)) {
-                return true;
-            }
-        }
-        return false;
-    }
+//    public boolean checkFriends(String username, String friendName) {
+//        List<String> friends = userRepository.getFriends(username);
+//        for (String friendCheck : friends) {
+//            if (friendCheck.equals(friendName)) {
+//                return true;
+//            }
+//        }
+//        return false;
+//    }
 }

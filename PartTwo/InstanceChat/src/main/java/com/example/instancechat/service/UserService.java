@@ -107,6 +107,8 @@ public class UserService {
 
     public static void main(String[] args) {
         UserService service = new UserService();
+        //Tạo ra các
         System.out.println(service.getMD5("user1"));
+        System.out.println(service.getMD5("23092002"));
     }
 }
