@@ -6,12 +6,12 @@
     "expireTime": 1702290164370
   },
   {
-<<<<<<< HEAD
     "token": "StM91MF9dPujXA11w4HlMgB7IB9fgYBSiQkiRPcl4f8\u003d",
     "username": "duythai2309",
     "createdTime": 1702317917901,
     "expireTime": 1702321517901
-=======
+  },
+  {
     "token": "7kVW0ylT2Kj13k0Mw8qBUB/uvw9piUMPvHLcJ3SMuvo\u003d",
     "username": "duythai2309",
     "createdTime": 1702317949477,
@@ -24,10 +24,27 @@
     "expireTime": 1702322599324
   },
   {
-    "token": "NeCIMZPe4TgKjbXtnyCa+f7P5xHsPcteOVEERMMnW7g\u003d",
+    "token": "8f9ctd53CipwMgkw2pdHF+SYPJ3otGYreo3YNorID4s\u003d",
     "username": "dtngx",
-    "createdTime": 1702319229497,
-    "expireTime": 1702322829497
->>>>>>> d6b764a299d407ba2e3576b95d192e2d5d84adc7
+    "createdTime": 1702410969579,
+    "expireTime": 1702414569579
+  },
+  {
+    "token": "uYKC9Eyww6NNFsjCfVl1FZy4Jc1oRR2R/vzHgLOnFl8\u003d",
+    "username": "bob",
+    "createdTime": 1702411265022,
+    "expireTime": 1702414865022
+  },
+  {
+    "token": "BPWpYmyUt0J/rCBClA75Hrf/vqBXWqAxkC+aLWTsQuw\u003d",
+    "username": "haiphong",
+    "createdTime": 1702411277086,
+    "expireTime": 1702414877086
+  },
+  {
+    "token": "dvi2w4JgIQeKrd6mh/uwWYqTZzTD3f5lhr/KOoemRhg\u003d",
+    "username": "duythai2309",
+    "createdTime": 1702411626470,
+    "expireTime": 1702415226470
   }
 ]

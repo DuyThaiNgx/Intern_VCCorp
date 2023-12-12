@@ -63,6 +63,14 @@ public class AccessTokenService {
         }
         return null;
     }
-
+    public boolean isValidAccessToken(String accessTokenHeader) {
+        Optional<AccessToken> tokenOptional = accessTokenRepo.findByToken(accessTokenHeader);
+        if(tokenOptional.isPresent()){
+            AccessToken token = tokenOptional.get();
+            long current = System.currentTimeMillis();
+            return current > token.getCreatedTime() && current < token.getExpireTime();
+        }
+        return false;
+    }
 
 }
