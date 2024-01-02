@@ -5,19 +5,20 @@
     "friends": []
   },
   {
-    "username": "Bob",
-    "password": "$2a$10$mvxYfqKmggrUrxm6wulfHeMG8b1nXP5LEWL2QshPxFohYUiyZ3TYC",
+    "username": "bob",
+    "password": "2acba7f51acfd4fd5102ad090fc612ee",
     "friends": [
-      "Alice",
-      "namanh",
+      "haiphong",
+      "duythai2309",
       "namanh202"
     ]
   },
   {
-    "username": "namanh",
-    "password": "$2a$10$oVCXucwzCB09H3wmPwuGv.nglW4pXg2znmcmpL71lPe3Z4xEM6heC",
+    "username": "haiphong",
+    "password": "f2aafd913bff1b869507dcd55b936e0e",
     "friends": [
-      "Bob"
+      "bob",
+      "duythai2309"
     ]
   },
   {
@@ -25,7 +26,7 @@
     "password": "24c9e15e52afc47c225b757e7bee1f9d",
     "friends": [
       "namanh",
-      "Bob"
+      "bob"
     ]
   },
   {

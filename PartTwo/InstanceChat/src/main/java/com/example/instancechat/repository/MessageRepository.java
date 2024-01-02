@@ -14,7 +14,7 @@ import java.util.LinkedList;
 import java.util.Map;
 @Repository
 public class MessageRepository {
-    private String filePath = "src/main/resources/storage/MessageQueue.json";
+    private String filePath = "src/main/resources/templates/MessageQueue.json";
     private Gson gson = new GsonBuilder().create();
     //DDoc dữ liệu tin nhắn người dùng từ file json
     public Map<String, LinkedList<Message>> getAllMessageQueue() {

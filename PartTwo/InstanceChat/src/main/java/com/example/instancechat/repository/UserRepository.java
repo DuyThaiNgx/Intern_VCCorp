@@ -21,7 +21,7 @@ public class UserRepository {
 
 
     public UserRepository() {
-        this.filePath = "src/main/resources/storage/user.json";
+        this.filePath = "src/main/resources/templates/user.json";
         this.gson = new GsonBuilder().setPrettyPrinting().create();
     }
 

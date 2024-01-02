@@ -62,16 +62,12 @@ public class UserService {
 
     public String getMD5(String input){
         try {
-            // Static getInstance method is called with hashing MD5
-            MessageDigest md = MessageDigest.getInstance("MD5");
 
-            // digest() method is called to calculate message digest
-            // of an input digest() return array of byte
+            MessageDigest md = MessageDigest.getInstance("MD5");
             byte[] messageDigest = md.digest(input.getBytes());
 
             // Convert byte array into signum representation
             BigInteger no = new BigInteger(1, messageDigest);
-
             // Convert message digest into hex value
             String hashtext = no.toString(16);
             while (hashtext.length() < 32) {
@@ -107,8 +103,13 @@ public class UserService {
 
     public static void main(String[] args) {
         UserService service = new UserService();
-        //Tạo ra các
+        //pass account duythai2309
         System.out.println(service.getMD5("user1"));
+        //pass account dtngx
         System.out.println(service.getMD5("23092002"));
+        //Pass account haiphong: f2aafd913bff1b869507dcd55b936e0e
+        System.out.println(service.getMD5("nhp1807"));
+        //pass account bob:2acba7f51acfd4fd5102ad090fc612ee
+        System.out.println(service.getMD5("bob123"));
     }
 }

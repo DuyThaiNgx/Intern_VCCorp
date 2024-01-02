@@ -101,7 +101,7 @@ public class AccessTokenRepo {
 
 
     public AccessTokenRepo() {
-        this.filePath = "src/main/resources/storage/AccessToken.json";
+        this.filePath = "src/main/resources/templates/AccessToken.json";
         this.gson = new GsonBuilder().setPrettyPrinting().create();
     }
 
