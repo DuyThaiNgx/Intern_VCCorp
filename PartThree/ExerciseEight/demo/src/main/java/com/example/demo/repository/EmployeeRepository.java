@@ -54,7 +54,7 @@ public class EmployeeRepository {
         basicDataSource.setMinIdle(5);
         basicDataSource.setMaxIdle(10);
         basicDataSource.setMaxOpenPreparedStatements(100);
-        basicDataSource.setDefaultAutoCommit(false);
+//        basicDataSource.setDefaultAutoCommit(false);
         this.dataSource = basicDataSource;
     }
 
@@ -227,14 +227,16 @@ public class EmployeeRepository {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try {
+
             connection = dataSource.getConnection();
-            String sql = "Call TransferEmployeeToDepartment(?, ?, ?)";
+            String sql = "{CALL TransferEmployeeToDepartment(?, ?, ?)}";
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, empNo);
             preparedStatement.setString(2, deptNo);
             preparedStatement.setString(3, title);
             preparedStatement.executeUpdate();
-
+            int rowsAffected = preparedStatement.executeUpdate();
+            System.out.println(rowsAffected);
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
